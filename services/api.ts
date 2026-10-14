@@ -1,8 +1,8 @@
+
 import axios from 'axios';
 
-export const api =
-  axios.create({
-    baseURL:
-      'https://system-drawn-backend-smoky.vercel.app',
-    timeout: 90000,
-  });
+export const api = axios.create({
+ 
+  baseURL: 'http://localhost:3000',
+  timeout: 90000, // 90 segundos (tempo ideal para a IA processar a imagem)
+});
